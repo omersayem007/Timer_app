@@ -1,0 +1,33 @@
+#oval {
+	width: 200px;
+	height: 100px;
+	background: #e60000;
+
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+  transform: rotate(90deg);
+  margin:70x;
+  position:absolute;
+top:100px;
+}
+#circle {
+	width: 70px;
+	height: 70px;
+	background: #adad85;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  position:absolute;
+top:270px;
+ left:74px;
+}
+#clock
+{
+  font-size:40px;
+  transform: rotate(270deg);
+  position:absolute;
+  left:50px;
+  top:-15px;
+     
+}
