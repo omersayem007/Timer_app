@@ -10,6 +10,25 @@
   margin:70x;
   position:absolute;
 top:100px;
+  
+  animation-name: example;
+    animation-duration: 4s;
+  animation-iteration-count: infinite;
+  /* HOVER OFF */
+   -webkit-transition: padding 2s;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+#oval:hover {
+  width: 220px;
+	height: 100px;
+   
+
+  /* HOVER ON */
+   -webkit-transition: border-radius 2s;
 }
 #circle {
 	width: 70px;
@@ -21,6 +40,8 @@ top:100px;
   position:absolute;
 top:270px;
  left:74px;
+   box-shadow: 5px 5px grey;
+  outline-style: none; 
 }
 #clock
 {
